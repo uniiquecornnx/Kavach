@@ -20,14 +20,13 @@ class SafeHome extends StatelessWidget {
                 child: Column(
               children: [
                 ListTile(
-                  title: Text("Share Location"),
-                  subtitle: Text("Share Live Location"),
+                  title: Text("Send Location"),
                 )
               ],
             )),
             ClipRRect(
                 borderRadius: BorderRadius.circular(20),
-                child: Image.asset("assets/Map_WSA.avif"))
+                child: Image.asset("assets/Map2_WSA.jpg"))
           ],
         ),
       ),

@@ -32,35 +32,37 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: SafeArea(
-      child: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Column(
-          children: [
-            CustomAppBar(
-                quoteIndex: qIndex,
-                onTap: () {
-                  getRandomQuote();
-                }),
-            CustomCarouel(),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text(
-                "Emergency",
-                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+        body: SingleChildScrollView(
+      child: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            children: [
+              CustomAppBar(
+                  quoteIndex: qIndex,
+                  onTap: () {
+                    getRandomQuote();
+                  }),
+              CustomCarouel(),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  "Emergency",
+                  style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+                ),
               ),
-            ),
-            Emergency(),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text(
-                "Explore LifeSafe",
-                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+              Emergency(),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  "Explore LifeSafe",
+                  style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+                ),
               ),
-            ),
-            LifeSafe(),
-            SafeHome(),
-          ],
+              LifeSafe(),
+              SafeHome(),
+            ],
+          ),
         ),
       ),
     ));

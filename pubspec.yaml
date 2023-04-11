@@ -67,6 +67,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/aaaa_WSA.png
+    - assets/Map2_WSA.jpg
     - assets/fire2_WSA.jpg
     - assets/Alert2_WSA.png
     - assets/army2_WSA.png
