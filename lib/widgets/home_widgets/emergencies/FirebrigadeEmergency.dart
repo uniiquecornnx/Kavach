@@ -67,7 +67,7 @@ class FirebrigadeEmergency extends StatelessWidget {
                         ),
                         child: Center(
                           child: Text(
-                            " 0 - 1 - 6 ",
+                            " 1 - 1 - 0 ",
                             style: TextStyle(
                               color: Color.fromARGB(210, 240, 36, 5),
                               overflow: TextOverflow.ellipsis,
