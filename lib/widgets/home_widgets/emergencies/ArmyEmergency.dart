@@ -42,7 +42,7 @@ class ArmyEmergency extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        '  NACTA ',
+                        'Cyber Crime',
                         style: TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
@@ -50,7 +50,7 @@ class ArmyEmergency extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        ' National counter Terrorism Authority ',
+                        ' National Cyber Crime Reporting',
                         style: TextStyle(
                           color: Colors.white,
                           overflow: TextOverflow.ellipsis,
@@ -67,7 +67,7 @@ class ArmyEmergency extends StatelessWidget {
                         ),
                         child: Center(
                           child: Text(
-                            " 1-7-1-7 ",
+                            "1-9-3-0",
                             style: TextStyle(
                               color: Color.fromARGB(210, 240, 36, 5),
                               overflow: TextOverflow.ellipsis,

@@ -67,7 +67,7 @@ class AmbulanceEmergency extends StatelessWidget {
                         ),
                         child: Center(
                           child: Text(
-                            " 1-1-2-2",
+                            "1-0-8",
                             style: TextStyle(
                               color: Color.fromARGB(210, 240, 36, 5),
                               overflow: TextOverflow.ellipsis,
