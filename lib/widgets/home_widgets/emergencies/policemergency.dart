@@ -50,7 +50,7 @@ class PoliceEmergency extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        '  Call 0-1-5 for Emergencies',
+                        '  Call for Emergencies',
                         style: TextStyle(
                           color: Colors.white,
                           overflow: TextOverflow.ellipsis,
@@ -67,7 +67,7 @@ class PoliceEmergency extends StatelessWidget {
                         ),
                         child: Center(
                           child: Text(
-                            " 0 - 1 - 5 ",
+                            " 1 - 1 - 0 ",
                             style: TextStyle(
                               color: Color.fromARGB(210, 240, 36, 5),
                               overflow: TextOverflow.ellipsis,
